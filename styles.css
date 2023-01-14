@@ -1,0 +1,20 @@
+
+
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+#left-screen {
+    background-image: url("https://wallpaper.dog/large/17223001.jpg");
+    background-size: contain;
+    display: flex;
+    flex: 1.39;
+}
+
+#right-screen {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+}
