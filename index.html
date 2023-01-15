@@ -13,7 +13,7 @@
 <body>
     <div id="left-screen">
         <div class="caption">
-            <h1>TO THE STRAY DOGS!</h1>
+            <h1>TO THE STRAY DOGS</h1>
         </div>
     </div>
     <div id="right-screen">
@@ -22,8 +22,33 @@
             <p class="header-text">Sign up now to get started.</p>
             <p class="header-text">You know you want to.</p>
         </div>
-        <div></div>
-        <div></div>
+        <form action="example.com/path" method="post">
+            <div class="form-container">
+                <div class="top-container">
+                    <p class="header-text">Let's do this!</p>
+                </div>
+                <div class="bottom-container">
+                    <div class="container">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name" name="first_name">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="container">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name" name="last_name">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone">
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm_password" name="confirm_password">
+                    </div>
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
+        <p>Already have an account? <a href="">Log in</a></p>
     </div>
     <script src="script.js"></script>
 </body>
