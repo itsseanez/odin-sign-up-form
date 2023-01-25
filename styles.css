@@ -34,6 +34,9 @@ body {
 .form-container {
     display: flex;
     flex-direction: column;
+    background-color: #FFFBF5;
+    padding-bottom: 40px;
+    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
 }
 
 .header-text{
@@ -51,4 +54,5 @@ body {
     display: flex;
     flex: 3;
     flex-direction: column;
+    background-color: #F7EFE5;
 }
