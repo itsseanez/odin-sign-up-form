@@ -18,37 +18,49 @@
     </div>
     <div id="right-screen">
         <div>
-            <p class="header-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
-            <p class="header-text">Sign up now to get started.</p>
-            <p class="header-text">You know you want to.</p>
+            <p class="header-text spacing header">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+            <p class="header-text spacing header">Sign up now to get started.</p>
+            <p class="header-text spacing header">You know you want to.</p>
         </div>
         <form action="example.com/path" method="post">
             <div class="form-container">
                 <div class="top-container">
-                    <p class="header-text">Let's do this!</p>
+                    <p class="header-text spacing" style="font-size: larger; font-weight: bold;">Let's do this!</p>
                 </div>
                 <div class="bottom-container">
                     <div class="container">
-                        <label for="first_name">FIRST NAME</label>
-                        <input type="text" id="first_name" name="first_name">
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email">
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password">
+                        <div class="container-item">
+                            <label for="first_name" class="spacing header-text">FIRST NAME</label>
+                            <input type="text" id="first_name" name="first_name" class="input">
+                        </div>
+                        <div class="container-item">
+                            <label for="email" class="spacing header-text">EMAIL</label>
+                            <input type="email" id="email" name="email" class="input">
+                        </div>
+                        <div class="container-item">
+                            <label for="password" class="spacing header-text">PASSWORD</label>
+                            <input type="password" id="password" name="password" class="input">
+                        </div>
                     </div>
                     <div class="container">
-                        <label for="last_name">LAST NAME</label>
-                        <input type="text" id="last_name" name="last_name">
-                        <label for="phone">PHONE NUMBER</label>
-                        <input type="tel" id="phone" name="phone">
-                        <label for="confirm_password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm_password" name="confirm_password">
+                        <div class="container-item">
+                            <label for="last_name" class="spacing header-text">LAST NAME</label>
+                            <input type="text" id="last_name" name="last_name" class="input">
+                        </div>
+                        <div class="container-item">
+                            <label for="phone" class="spacing header-text">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone" class="input error">
+                        </div>
+                        <div class="container-item">
+                            <label for="confirm_password" class="spacing header-text">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm_password" name="confirm_password" class="input error">
+                        </div>
                     </div>
                 </div>
             </div>
-            <button type="submit">Create Account</button>
+            <button type="submit" class="header-text">Create Account</button>
         </form>
-        <p>Already have an account? <a href="">Log in</a></p>
+        <p class="spacing header-text">Already have an account? <a href="">Log in</a></p>
     </div>
     <script src="script.js"></script>
 </body>
